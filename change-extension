@@ -1,4 +1,5 @@
-#!/usr/bi
+#!/usr/bin/env bash
+
 old_ext=$1
 new_ext=$2
 
