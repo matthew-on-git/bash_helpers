@@ -1,0 +1,7 @@
+#!/usr/bi
+old_ext=$1
+new_ext=$2
+
+for f in *.old_ext; do 
+  mv -- "$f" "${f%.old_ext}.new_ext"
+done
